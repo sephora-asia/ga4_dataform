@@ -1,4 +1,4 @@
-defaultProject: `luxola.com:luxola-analytics`
+defaultProject: luxola.com:luxola-analytics
 defaultLocation: US
 defaultDataset: tmp
 defaultAssertionDataset: tmp
