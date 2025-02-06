@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-const SOURCE_PROJECT = "luxola.com:luxola-analytics"; /* specify a value here only in case your source data sits in a project other than the default defined in workflow_settings.yaml defaultDatabase variable. You would need to grant the Dataform service account BigQuery Data Viewer and BigQuery Job User access to the dataset. */
+const SOURCE_PROJECT = `luxola.com:luxola-analytics`; /* specify a value here only in case your source data sits in a project other than the default defined in workflow_settings.yaml defaultDatabase variable. You would need to grant the Dataform service account BigQuery Data Viewer and BigQuery Job User access to the dataset. */
 const SOURCE_DATASET = "analytics_296261408"; /* the database containing the GA4 BigQuery exports */
 const REPORTING_TIME_ZONE = "Asia/Singapore"; /* replace with your property reporting time zone, this will update the timestamp columns from UTC to your GA4 property timezone (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) */
 const STAGING_DATASET = "staging";
