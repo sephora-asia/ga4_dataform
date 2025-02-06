@@ -1,5 +1,5 @@
-defaultProject: your-project-id
-defaultLocation: EU
-defaultDataset: ga4_dataform
-defaultAssertionDataset: ga4_dataform_assertions
+defaultProject: "luxola.com:luxola-analytics"
+defaultLocation: US
+defaultDataset: tmp
+defaultAssertionDataset: tmp
 dataformCoreVersion: 3.0.0-beta.4    
