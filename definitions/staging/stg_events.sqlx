@@ -123,7 +123,7 @@ with
                 end
           ) ) as session_engaged
     from
-      ${ref('events_*')}
+      ${ref('events_fresh_*')}
     where
       _table_suffix not like "%intraday%"
       and _table_suffix not like "%fresh%"
