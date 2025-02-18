@@ -126,7 +126,7 @@ with
       ${ref('events_fresh_*')}
     where
       _table_suffix not like "%intraday%"
-      and _table_suffix not like "%fresh%"
+      -- and _table_suffix not like "%fresh%"
       and cast(_table_suffix as date format 'yyyymmdd') >= event_date_checkpoint
   )
 select
